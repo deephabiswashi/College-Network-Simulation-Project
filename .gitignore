@@ -1,0 +1,44 @@
+# Ignore Cisco Packet Tracer backup files
+*.bak
+*.backup
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if used for automation)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment and package files
+.env
+*.env
+.env.*
+
+# Ignore ZIPs or compressed backups
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore node_modules if web interface is added
+node_modules/
+
+# Ignore compiled files
+*.out
+*.exe
+*.class
+
+# Ignore macOS and Linux hidden files
+*.~
+.cache/
+
